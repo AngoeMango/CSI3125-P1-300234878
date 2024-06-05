@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: OdinRoundLight;
+    src: url(/components/fonts/OdinRounded-Light.otf);
+}
+
+@font-face {
+    font-family: OdinRoundRegular;
+    src: url(/components/fonts/OdinRounded-Regular.otf);
+}
+
+@font-face {
+    font-family: OdinRoundBold;
+    src: url(/components/fonts/OdinRounded-Bold.otf);
+}
+
+@font-face {
+    font-family: ChillyUI;
+    src: url(/components/fonts/ChillyUIBold.ttf);
+}
+
+@font-face {
+    font-family: Boldins;
+    src: url(/components/fonts/Boldins.ttf);
+}
+
+body {
+    background-color: #FFE7E7;
+    font-family: OdinRoundLight;
+}
+
+/* Headers, Subheaders and Body */
+
+.header1 {
+    font-size: 96px;
+    color: #472D1C;
+    font-family: OdinRoundBold;
+}
+
+.header2 {
+    font-size: 96px;
+    color: #4F765A;
+    font-family: OdinRoundBold;
+}
+
+.header3 {
+    font-size: 96px;
+    color: #FF7263;
+    font-family: OdinRoundLight;
+}
+
+.subhead1 {
+    font-size: 1.25rem;
+    color: #FF7263;
+    font-family: OdinRoundLight;
+}
+
+.subhead2 {
+    font-size: 1.25rem;
+    color: #4F765A;
+    font-family: OdinRoundLight;
+}
+
+.subhead3 {
+    font-size: 1.25rem;
+    color: #472D1C;
+    font-family: OdinRoundLight;
+}
+
+.text1 {
+    font-size: 1.00rem;
+    color: #FF7263;
+    font-family: OdinRoundLight;
+}
+
+.text2 {
+    font-size: 1.00rem;
+    color: #472D1C;
+    font-family: OdinRoundLight;
+}
+
+.text3 {
+    font-size: 1.00rem;
+    color: #4F765A;
+    font-family: OdinRoundLight;
+}
+
+/*============== NAV BAR ==============*/
+
+.mycustomnavbar {
+    background-color: #FFFF00;
+    margin: 1.00rem;
+}
+
+p .pcontent {
+    margin: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 24px;
+    color: #472D1C;
+    font-family: ChillyUI;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Darker brown on hover */
+}
+
+.navbar-nav .book-a-baker-button {
+    color: #FFFFFF;
+    background-color: #4F765A;
+    font-family: ChillyUI;
+
+    padding: 10px;
+    border-radius:25px 
+}
