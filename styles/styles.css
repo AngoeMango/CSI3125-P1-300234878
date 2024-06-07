@@ -121,7 +121,7 @@ p .pcontent {
     margin-right: 30px;
 }
 
-.navbar-nav .book-a-baker-button {
+.navbar-nav .book-a-baker-button-nav {
     font-size: 1.5rem;
     color: #FFFFFF;
     font-family: ChillyUI;
@@ -139,7 +139,7 @@ p .pcontent {
     transition-duration: 0.6s;
 }
 
-.navbar-nav .book-a-baker-button:hover {
+.navbar-nav .book-a-baker-button-nav:hover {
     color: #4F765A;
 
     background-color: #FFFFFF;
@@ -152,31 +152,36 @@ p .pcontent {
     color:#472D1C;
 }
 
-.mycustombutton {
+.book-a-baker-button-page {
     font-size: 4rem;
     color: #FFFFFF;
     font-family: ChillyUI;
+    text-decoration: none;
 
     background-color: #4F765A;
     border-style: solid;
     border-width:  2px;
     border-color: #4F765A;
     border-radius: 100px;
+    
+    outline: none;
 
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px;
+    margin-top: 5px;
     
 
     transition-duration: 0.6s;
 }
 
-.mycustombutton:hover {
+.book-a-baker-button-page:hover {
     color: #4F765A;
+    text-decoration: none;
 
     background-color: #FFFFFF;
     border-style: solid;
     border-width: 2px;
     border-color: #4F765A;
+    outline: none;
 }
 
 .navbar-toggler {
@@ -233,6 +238,42 @@ p .pcontent {
     }
 }
 
-p .generalinfo {
-    margin: 25px;
+.generalinfo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/*====== Footer =======*/
+.footer {
+    color: #FFFFFF;
+    font-family: ChillyUI;
+    
+    background-color: #472D1C;
+    
+    padding: 20px 0;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .text-center p {
+    margin: 0;
+    font-family: Boldins; /* Use your desired font family */
+    font-size: 0.875rem;
 }
