@@ -39,6 +39,129 @@
     </div>
 	<!-- End Navigation -->
 
+    <!-- Book a Baker Form -->
+	<div class="container mt-5">
+        <div class="form-container">
+            <form action="4.1book-a-baker.html" method="get">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label form-label-custom">first name<span style="color:red;">*</span></label>
+                            <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label form-label-custom">last name<span style="color:red;">*</span></label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label form-label-custom">email<span style="color:red;">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="phone" class="form-label form-label-custom">phone number<span style="color:red;">*</span></label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="bakeroptions" class="form-label form-label-custom">select a baker<span style="color:red;">*</span></label>
+                            <select class="form-control" id="bakeroptions" required>
+                                <option selected disabled value="">Please select a baker</option>
+                                <option value="jamesdonovan">James Donovan</option>
+                                <option value="annaparker">Anna Parker</option>
+                                <option value="taylormorgan">Taylor Morgan</option>
+                                <option value="ethancanelley">Ethan Canelley</option>
+                                <option value="lauramitchell">Laura Mitchell</option>
+                                <option value="carlosramirez">Carlos Ramirez</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="pickupoptions" class="form-label form-label-custom">pick up or dropoff<span style="color:red;">*</span></label>
+                            <select class="form-control" id="pickupoptions" required>
+                                <option selected disabled value="">Please select an option</option>
+                                <option value="pickup">Pick Up</option>
+                                <option value="dropoff">Drop Off</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="date" class="form-label form-label-custom">date<span style="color:red;">*</span></label>
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="time" class="form-label form-label-custom">time<span style="color:red;">*</span></label>
+                            <input type="time" class="form-control" id="time" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="form-label form-label-custom">please describe the event and request with detail<span style="color:red;">*</span></label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn form-btn-custom w-100">send request</button>
+            </form>
+        </div>
+    </div>
+	<!-- End Contact Us Form -->
+
+    <!-- Start Footer -->
+	<footer class="footer text-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="list-unstyled">
+						<li><a href="2our-services.html" class="text-light">Our Services</a></li>
+						<li><a href="3bakers.html" class="text-light">Bakers</a></li>
+						<li><a href="5about.html" class="text-light">About</a></li>
+						<li><a href="6content.html" class="text-light">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-unstyled">
+						<li>123 bank street</li>
+						<li>ottawa, on</li>
+						<li>a1b 2c3</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-unstyled">
+						<li>(123) 456-7890</li>
+						<li>contact@bakerbooking.com</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-unstyled">
+						<li>office hours</li>
+						<li>monday to friday: 10am-8pm</li>
+						<li>saturday: 10am-6pm</li>
+						<li>sunday: 10am-6pm</li>
+					</ul>
+				</div>
+			</div>
+			<div class="text-center">
+				<p>BakerBooking © 2024</p>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
     
 
     <!-- jQuery from CDN -->
