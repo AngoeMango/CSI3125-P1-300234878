@@ -20,9 +20,9 @@
 
 @font-face {
     font-family: 'OdinRoundBold';
-    src: url('components/fonts/OdinRounded-Bold.woff2') format('woff2'),
-         url('components/fonts/OdinRounded-Bold.woff') format('woff'),
-         url('components/fonts/OdinRounded-Bold.otf') format('opentype');
+    src: url(components/fonts/OdinRounded-Bold.woff2) format('woff2'),
+         url(components/fonts/OdinRounded-Bold.woff) format('woff'),
+         url(components/fonts/OdinRounded-Bold.otf) format('opentype');
 }
 
 @font-face {
