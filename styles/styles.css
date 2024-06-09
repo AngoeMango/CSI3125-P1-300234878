@@ -5,23 +5,31 @@
 }
 
 @font-face {
-    font-family: OdinRoundLight;
-    src: url(components/fonts/OdinRounded-Light.otf);
+    font-family: 'OdinRoundLight';
+    src: url('components/fonts/OdinRounded-Light.woff2') format('woff2'),
+         url('components/fonts/OdinRounded-Light.woff') format('woff'),
+         url('components/fonts/OdinRounded-Light.otf') format('opentype');
 }
 
 @font-face {
-    font-family: OdinRoundRegular;
-    src: url(components/fonts/OdinRounded-Regular.otf);
+    font-family: 'OdinRoundRegular';
+    src: url('components/fonts/OdinRounded-Regular.woff2') format('woff2'),
+         url('components/fonts/OdinRounded-Regular.woff') format('woff'),
+         url('components/fonts/OdinRounded-Regular.otf') format('opentype');
 }
 
 @font-face {
-    font-family: OdinRoundBold;
-    src: url(components/fonts/OdinRounded-Bold.otf);
+    font-family: 'OdinRoundBold';
+    src: url('components/fonts/OdinRounded-Bold.woff2') format('woff2'),
+         url('components/fonts/OdinRounded-Bold.woff') format('woff'),
+         url('components/fonts/OdinRounded-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: ChillyUI;
-    src: url(components/fonts/ChillyUIBold.ttf);
+    src: url(components/fonts/ChillyUIBold.otf),
+    url(components/fonts/ChillyUIBold.woff) format('woff'),
+    url(components/fonts/ChillyUIBold.ttf) format('truetype');
 }
 
 @font-face {
