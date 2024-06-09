@@ -6,27 +6,27 @@
 
 @font-face {
     font-family: OdinRoundLight;
-    src: url(/components/fonts/OdinRounded-Light.otf);
+    src: url(components/fonts/OdinRounded-Light.otf);
 }
 
 @font-face {
     font-family: OdinRoundRegular;
-    src: url(/components/fonts/OdinRounded-Regular.otf);
+    src: url(components/fonts/OdinRounded-Regular.otf);
 }
 
 @font-face {
     font-family: OdinRoundBold;
-    src: url(/components/fonts/OdinRounded-Bold.otf);
+    src: url(components/fonts/OdinRounded-Bold.otf);
 }
 
 @font-face {
     font-family: ChillyUI;
-    src: url(/components/fonts/ChillyUIBold.ttf);
+    src: url(components/fonts/ChillyUIBold.ttf);
 }
 
 @font-face {
     font-family: Boldins;
-    src: url(/components/fonts/Boldins.ttf);
+    src: url(components/fonts/Boldins.ttf);
 }
 
 body {
