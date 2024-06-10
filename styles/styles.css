@@ -240,6 +240,7 @@ p .pcontent {
 }
 
 .form-label-custom {
+    font-size: 1.5rem;
     color: #472D1C;
     font-family: ChillyUI;
 }
